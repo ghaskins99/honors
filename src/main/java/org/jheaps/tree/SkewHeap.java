@@ -311,7 +311,7 @@ public class SkewHeap<K, V> implements MergeableAddressableHeap<K, V>, Serializa
     }
 
     // ~-----------------------------------------------------------------------------
-    static class Node<K, V> implements AddressableHeap.Handle<K, V>, Serializable {
+    protected static class Node<K, V> implements AddressableHeap.Handle<K, V>, Serializable {
 
         private final static long serialVersionUID = 1;
 
@@ -323,8 +323,8 @@ public class SkewHeap<K, V> implements MergeableAddressableHeap<K, V>, Serializa
 
         K key;
         V value;
-        Node<K, V> o_c; // older child
-        Node<K, V> y_s; // younger sibling or parent
+        public Node<K, V> o_c; // older child
+        public Node<K, V> y_s; // younger sibling or parent
 
         Node(SkewHeap<K, V> heap, K key, V value) {
             this.heap = heap;

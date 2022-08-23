@@ -107,17 +107,17 @@ public class FibonacciHeap<K, V> implements MergeableAddressableHeap<K, V>, Seri
     /**
      * The root with the minimum key
      */
-    private Node<K, V> minRoot;
+    protected Node<K, V> minRoot;
 
     /**
      * Number of roots in the root list
      */
-    private int roots;
+    protected int roots;
 
     /**
      * Size of the heap
      */
-    private long size;
+    protected long size;
 
     /**
      * Auxiliary array for consolidation
@@ -375,7 +375,7 @@ public class FibonacciHeap<K, V> implements MergeableAddressableHeap<K, V>, Seri
     }
 
     // --------------------------------------------------------------------
-    static class Node<K, V> implements AddressableHeap.Handle<K, V>, Serializable {
+    protected static class Node<K, V> implements AddressableHeap.Handle<K, V>, Serializable {
 
         private final static long serialVersionUID = 1;
 
@@ -389,8 +389,8 @@ public class FibonacciHeap<K, V> implements MergeableAddressableHeap<K, V>, Seri
         V value;
         Node<K, V> parent; // parent
         Node<K, V> child; // any child
-        Node<K, V> next; // younger sibling
-        Node<K, V> prev; // older sibling
+        public Node<K, V> next; // younger sibling
+        public Node<K, V> prev; // older sibling
         int degree; // number of children
         boolean mark; // marked or not
 

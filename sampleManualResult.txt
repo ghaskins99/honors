@@ -1,0 +1,4 @@
+PairingHeap.1000          33.595 ±  0.682 ns/op
+PairingHeap.10000         37.469 ±  1.066 ns/op
+PairingHeap.100000        60.424 ±  5.835 ns/op
+PairingHeap.1000000       46.282 ± 23.771 ns/op

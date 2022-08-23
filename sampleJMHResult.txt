@@ -1,0 +1,3 @@
+Benchmark                (size)  Mode  Cnt    Score     Error  Units
+PairingPerfTest.doMerge   10000  avgt    5   67.975 ±   1.659  ns/op
+PairingPerfTest.doMerge  100000  avgt    5  390.678 ± 116.604  ns/op

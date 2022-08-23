@@ -102,12 +102,12 @@ public class PairingHeap<K, V> implements MergeableAddressableHeap<K, V>, Serial
     /**
      * The root of the pairing heap
      */
-    private Node<K, V> root;
+    protected Node<K, V> root;
 
     /**
      * Size of the pairing heap
      */
-    private long size;
+    protected long size;
 
     /**
      * Used to reference the current heap or some other pairing heap in case of
@@ -119,7 +119,7 @@ public class PairingHeap<K, V> implements MergeableAddressableHeap<K, V>, Serial
      * path-compression in case of cascading melds, that it, a handle moves from
      * one heap to another and then another.
      */
-    private PairingHeap<K, V> other;
+    protected PairingHeap<K, V> other;
 
     /**
      * Constructs a new, empty heap, using the natural ordering of its keys. All
@@ -306,7 +306,7 @@ public class PairingHeap<K, V> implements MergeableAddressableHeap<K, V>, Serial
     }
 
     // --------------------------------------------------------------------
-    static class Node<K, V> implements AddressableHeap.Handle<K, V>, Serializable {
+    protected static class Node<K, V> implements AddressableHeap.Handle<K, V>, Serializable {
 
         private final static long serialVersionUID = 1;
 
@@ -316,11 +316,11 @@ public class PairingHeap<K, V> implements MergeableAddressableHeap<K, V>, Serial
          */
         PairingHeap<K, V> heap;
 
-        K key;
-        V value;
-        Node<K, V> o_c; // older child
-        Node<K, V> y_s; // younger sibling
-        Node<K, V> o_s; // older sibling or parent
+        public K key;
+        public V value;
+        public Node<K, V> o_c; // older child
+        public Node<K, V> y_s; // younger sibling
+        public Node<K, V> o_s; // older sibling or parent
 
         Node(PairingHeap<K, V> heap, K key, V value) {
             this.heap = heap;

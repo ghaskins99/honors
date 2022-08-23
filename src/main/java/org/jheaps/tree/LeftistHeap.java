@@ -102,11 +102,11 @@ public class LeftistHeap<K, V> extends SkewHeap<K, V> {
     }
 
     // ~-----------------------------------------------------------------------
-    static class LeftistNode<K, V> extends Node<K, V> {
+    protected static class LeftistNode<K, V> extends Node<K, V> {
 
         private static final long serialVersionUID = 1L;
 
-        int npl; // null path length
+        public int npl; // null path length
 
         LeftistNode(LeftistHeap<K, V> heap, K key, V value) {
             super(heap, key, value);

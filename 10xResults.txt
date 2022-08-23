@@ -1,0 +1,471 @@
+BinomialHeap 1000
+
+# Warmup Iteration 1: 145.349 ns/op
+# Warmup Iteration 2: 132.633 ns/op
+# Warmup Iteration 3: 130.239 ns/op
+Iteration 1: 130.627 ns/op
+Iteration 2: 130.431 ns/op
+Iteration 3: 129.575 ns/op
+
+130.211 ±(99.0%) 3.206 ns/op [Average]
+(min, avg, max) = (129.575, 130.211, 130.627), stdev = 0.560
+CI (99.0%): [127.005, 133.417] (normal [t] distribution)
+
+
+BinomialHeap 10000
+
+# Warmup Iteration 1: 156.815 ns/op
+# Warmup Iteration 2: 155.401 ns/op
+# Warmup Iteration 3: 153.594 ns/op
+Iteration 1: 155.014 ns/op
+Iteration 2: 152.366 ns/op
+Iteration 3: 154.314 ns/op
+
+153.898 ±(99.0%) 7.863 ns/op [Average]
+(min, avg, max) = (152.366, 153.898, 155.014), stdev = 1.372
+CI (99.0%): [146.035, 161.761] (normal [t] distribution)
+
+
+BinomialHeap 100000
+
+# Warmup Iteration 1: 326.357 ns/op
+# Warmup Iteration 2: 323.810 ns/op
+# Warmup Iteration 3: 334.733 ns/op
+Iteration 1: 314.735 ns/op
+Iteration 2: 327.075 ns/op
+Iteration 3: 315.675 ns/op
+
+319.161 ±(99.0%) 39.363 ns/op [Average]
+(min, avg, max) = (314.735, 319.161, 327.075), stdev = 6.869
+CI (99.0%): [279.799, 358.524] (normal [t] distribution)
+
+
+BinomialHeap 1000000
+
+# Warmup Iteration 1: 679.412 ns/op
+# Warmup Iteration 2: 484.615 ns/op
+# Warmup Iteration 3: 437.778 ns/op
+Iteration 1: 491.111 ns/op
+Iteration 2: 446.667 ns/op
+Iteration 3: 417.778 ns/op
+
+451.852 ±(99.0%) 211.674 ns/op [Average]
+(min, avg, max) = (417.778, 451.852, 491.111), stdev = 36.941
+CI (99.0%): [240.178, 663.526] (normal [t] distribution)
+
+
+BinomialHeap 10000000
+
+# Warmup Iteration 1: 650.000 ns/op
+# Warmup Iteration 2: 1066.667 ns/op
+# Warmup Iteration 3: 733.333 ns/op
+Iteration 1: 1166.667 ns/op
+Iteration 2: 900.000 ns/op
+Iteration 3: 800.000 ns/op
+
+955.556 ±(99.0%) 1086.093 ns/op [Average]
+(min, avg, max) = (800.000, 955.556, 1166.667), stdev = 189.541
+CI (99.0%): [-130.537, 2041.649] (normal [t] distribution)
+
+
+BinomialHeap.10000        153.898 ± 7.863 ns/op
+BinomialHeap.100000       319.161 ± 39.363 ns/op
+BinomialHeap.1000         130.211 ± 3.206 ns/op
+BinomialHeap.10000000     955.556 ± 1086.093 ns/op
+BinomialHeap.1000000      451.852 ± 211.674 ns/op
+black hole: 906756.8104403652
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 154.13 s - in honours.heaps.merge.perf.manual.ManualBinomialPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualFibonacciPerfTest
+=========================================================================================
+FibonacciHeap 1000
+
+# Warmup Iteration 1: 36.486 ns/op
+# Warmup Iteration 2: 35.072 ns/op
+# Warmup Iteration 3: 34.767 ns/op
+Iteration 1: 35.079 ns/op
+Iteration 2: 34.986 ns/op
+Iteration 3: 34.737 ns/op
+
+34.934 ±(99.0%) 1.011 ns/op [Average]
+(min, avg, max) = (34.737, 34.934, 35.079), stdev = 0.176
+CI (99.0%): [33.923, 35.945] (normal [t] distribution)
+
+
+FibonacciHeap 10000
+
+# Warmup Iteration 1: 40.700 ns/op
+# Warmup Iteration 2: 39.028 ns/op
+# Warmup Iteration 3: 39.493 ns/op
+Iteration 1: 39.153 ns/op
+Iteration 2: 40.117 ns/op
+Iteration 3: 39.923 ns/op
+
+39.731 ±(99.0%) 2.923 ns/op [Average]
+(min, avg, max) = (39.153, 39.731, 40.117), stdev = 0.510
+CI (99.0%): [36.808, 42.654] (normal [t] distribution)
+
+
+FibonacciHeap 100000
+
+# Warmup Iteration 1: 66.766 ns/op
+# Warmup Iteration 2: 68.482 ns/op
+# Warmup Iteration 3: 69.869 ns/op
+Iteration 1: 66.842 ns/op
+Iteration 2: 69.351 ns/op
+Iteration 3: 69.271 ns/op
+
+68.488 ±(99.0%) 8.170 ns/op [Average]
+(min, avg, max) = (66.842, 68.488, 69.351), stdev = 1.426
+CI (99.0%): [60.318, 76.658] (normal [t] distribution)
+
+
+FibonacciHeap 1000000
+
+# Warmup Iteration 1: 83.784 ns/op
+# Warmup Iteration 2: 83.262 ns/op
+# Warmup Iteration 3: 78.333 ns/op
+Iteration 1: 84.232 ns/op
+Iteration 2: 81.250 ns/op
+Iteration 3: 84.232 ns/op
+
+83.238 ±(99.0%) 9.867 ns/op [Average]
+(min, avg, max) = (81.250, 83.238, 84.232), stdev = 1.722
+CI (99.0%): [73.372, 93.105] (normal [t] distribution)
+
+
+FibonacciHeap 10000000
+
+# Warmup Iteration 1: 700.000 ns/op
+# Warmup Iteration 2: 300.000 ns/op
+# Warmup Iteration 3: 600.000 ns/op
+Iteration 1: 750.000 ns/op
+Iteration 2: 500.000 ns/op
+Iteration 3: 600.000 ns/op
+
+616.667 ±(99.0%) 721.023 ns/op [Average]
+(min, avg, max) = (500.000, 616.667, 750.000), stdev = 125.831
+CI (99.0%): [-104.356, 1337.690] (normal [t] distribution)
+
+
+FibonacciHeap.10000       39.731 ± 2.923 ns/op
+FibonacciHeap.100000      68.488 ± 8.170 ns/op
+FibonacciHeap.1000        34.934 ± 1.011 ns/op
+FibonacciHeap.10000000    616.667 ± 721.023 ns/op
+FibonacciHeap.1000000     83.238 ± 9.867 ns/op
+black hole: 238634.59604831814
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 156.47 s - in honours.heaps.merge.perf.manual.ManualFibonacciPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualLeftistPerfTest
+=========================================================================================
+LeftistHeap 1000
+
+# Warmup Iteration 1: 246.035 ns/op
+# Warmup Iteration 2: 234.169 ns/op
+# Warmup Iteration 3: 234.609 ns/op
+Iteration 1: 232.646 ns/op
+Iteration 2: 232.531 ns/op
+Iteration 3: 233.782 ns/op
+
+232.986 ±(99.0%) 3.964 ns/op [Average]
+(min, avg, max) = (232.531, 232.986, 233.782), stdev = 0.692
+CI (99.0%): [229.022, 236.950] (normal [t] distribution)
+
+
+LeftistHeap 10000
+
+# Warmup Iteration 1: 465.438 ns/op
+# Warmup Iteration 2: 466.448 ns/op
+# Warmup Iteration 3: 467.630 ns/op
+Iteration 1: 472.453 ns/op
+Iteration 2: 465.206 ns/op
+Iteration 3: 459.044 ns/op
+
+465.567 ±(99.0%) 38.458 ns/op [Average]
+(min, avg, max) = (459.044, 465.567, 472.453), stdev = 6.712
+CI (99.0%): [427.109, 504.026] (normal [t] distribution)
+
+
+LeftistHeap 100000
+
+# Warmup Iteration 1: 863.861 ns/op
+# Warmup Iteration 2: 1013.462 ns/op
+# Warmup Iteration 3: 908.696 ns/op
+Iteration 1: 795.673 ns/op
+Iteration 2: 788.995 ns/op
+Iteration 3: 811.005 ns/op
+
+798.558 ±(99.0%) 64.663 ns/op [Average]
+(min, avg, max) = (788.995, 798.558, 811.005), stdev = 11.285
+CI (99.0%): [733.895, 863.221] (normal [t] distribution)
+
+
+LeftistHeap 1000000
+
+# Warmup Iteration 1: 1293.750 ns/op
+# Warmup Iteration 2: 1255.556 ns/op
+# Warmup Iteration 3: 1333.333 ns/op
+Iteration 1: 1364.706 ns/op
+Iteration 2: 1344.444 ns/op
+Iteration 3: 1211.765 ns/op
+
+1306.972 ±(99.0%) 476.010 ns/op [Average]
+(min, avg, max) = (1211.765, 1306.972, 1364.706), stdev = 83.072
+CI (99.0%): [830.962, 1782.982] (normal [t] distribution)
+
+
+LeftistHeap 10000000
+
+# Warmup Iteration 1: 1450.000 ns/op
+# Warmup Iteration 2: 1650.000 ns/op
+# Warmup Iteration 3: 1800.000 ns/op
+Iteration 1: 1600.000 ns/op
+Iteration 2: 1850.000 ns/op
+Iteration 3: 1050.000 ns/op
+
+1500.000 ±(99.0%) 2345.149 ns/op [Average]
+(min, avg, max) = (1050.000, 1500.000, 1850.000), stdev = 409.268
+CI (99.0%): [-845.149, 3845.149] (normal [t] distribution)
+
+
+LeftistHeap.10000         465.567 ± 38.458 ns/op
+LeftistHeap.100000        798.558 ± 64.663 ns/op
+LeftistHeap.1000          232.986 ± 3.964 ns/op
+LeftistHeap.10000000      1500.000 ± 2345.149 ns/op
+LeftistHeap.1000000       1306.972 ± 476.010 ns/op
+black hole: 239096.0359284208
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 172.585 s - in honours.heaps.merge.perf.manual.ManualLeftistPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualMergeOnlyPennantForestPerfTest
+=========================================================================================
+MergePennantForest 1000
+
+# Warmup Iteration 1: 4843.740 ns/op
+# Warmup Iteration 2: 4202.658 ns/op
+# Warmup Iteration 3: 4233.534 ns/op
+Iteration 1: 4260.188 ns/op
+Iteration 2: 4239.308 ns/op
+Iteration 3: 4241.328 ns/op
+
+4246.942 ±(99.0%) 65.989 ns/op [Average]
+(min, avg, max) = (4239.308, 4246.942, 4260.188), stdev = 11.516
+CI (99.0%): [4180.953, 4312.931] (normal [t] distribution)
+
+
+MergePennantForest 10000
+
+# Warmup Iteration 1: 6934.411 ns/op
+# Warmup Iteration 2: 6870.641 ns/op
+# Warmup Iteration 3: 6886.455 ns/op
+Iteration 1: 6870.937 ns/op
+Iteration 2: 7179.606 ns/op
+Iteration 3: 6910.497 ns/op
+
+6987.013 ±(99.0%) 962.421 ns/op [Average]
+(min, avg, max) = (6870.937, 6987.013, 7179.606), stdev = 167.959
+CI (99.0%): [6024.592, 7949.435] (normal [t] distribution)
+
+
+MergePennantForest 100000
+
+# Warmup Iteration 1: 10517.667 ns/op
+# Warmup Iteration 2: 10271.523 ns/op
+# Warmup Iteration 3: 10268.317 ns/op
+Iteration 1: 10392.079 ns/op
+Iteration 2: 10388.119 ns/op
+Iteration 3: 10459.934 ns/op
+
+10413.377 ±(99.0%) 231.312 ns/op [Average]
+(min, avg, max) = (10388.119, 10413.377, 10459.934), stdev = 40.368
+CI (99.0%): [10182.066, 10644.689] (normal [t] distribution)
+
+
+MergePennantForest 1000000
+
+# Warmup Iteration 1: 16400.000 ns/op
+# Warmup Iteration 2: 15122.222 ns/op
+# Warmup Iteration 3: 15117.241 ns/op
+Iteration 1: 15135.714 ns/op
+Iteration 2: 15325.000 ns/op
+Iteration 3: 15220.690 ns/op
+
+15227.135 ±(99.0%) 543.256 ns/op [Average]
+(min, avg, max) = (15135.714, 15227.135, 15325.000), stdev = 94.807
+CI (99.0%): [14683.878, 15770.391] (normal [t] distribution)
+
+
+MergePennantForest 10000000
+
+# Warmup Iteration 1: 18900.000 ns/op
+# Warmup Iteration 2: 19500.000 ns/op
+# Warmup Iteration 3: 18850.000 ns/op
+Iteration 1: 17800.000 ns/op
+Iteration 2: 17550.000 ns/op
+Iteration 3: 19400.000 ns/op
+
+18250.000 ±(99.0%) 5751.559 ns/op [Average]
+(min, avg, max) = (17550.000, 18250.000, 19400.000), stdev = 1003.743
+CI (99.0%): [12498.441, 24001.559] (normal [t] distribution)
+
+
+MergePennantForest.10000  6987.013 ± 962.421 ns/op
+MergePennantForest.100000 10413.377 ± 231.312 ns/op
+MergePennantForest.1000   4246.942 ± 65.989 ns/op
+MergePennantForest.10000000 18250.000 ± 5751.559 ns/op
+MergePennantForest.1000000 15227.135 ± 543.256 ns/op
+black hole: 238569.5465364289
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 153.093 s - in honours.heaps.merge.perf.manual.ManualMergeOnlyPennantForestPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualPairingPerfTest
+=========================================================================================
+PairingHeap 1000
+
+# Warmup Iteration 1: 34.965 ns/op
+# Warmup Iteration 2: 33.523 ns/op
+# Warmup Iteration 3: 33.496 ns/op
+Iteration 1: 33.575 ns/op
+Iteration 2: 33.723 ns/op
+Iteration 3: 33.487 ns/op
+
+33.595 ±(99.0%) 0.682 ns/op [Average]
+(min, avg, max) = (33.487, 33.595, 33.723), stdev = 0.119
+CI (99.0%): [32.913, 34.277] (normal [t] distribution)
+
+
+PairingHeap 10000
+
+# Warmup Iteration 1: 38.305 ns/op
+# Warmup Iteration 2: 37.458 ns/op
+# Warmup Iteration 3: 37.789 ns/op
+Iteration 1: 37.266 ns/op
+Iteration 2: 37.511 ns/op
+Iteration 3: 37.631 ns/op
+
+37.469 ±(99.0%) 1.066 ns/op [Average]
+(min, avg, max) = (37.266, 37.469, 37.631), stdev = 0.186
+CI (99.0%): [36.403, 38.535] (normal [t] distribution)
+
+
+PairingHeap 100000
+
+# Warmup Iteration 1: 59.257 ns/op
+# Warmup Iteration 2: 59.298 ns/op
+# Warmup Iteration 3: 59.303 ns/op
+Iteration 1: 59.983 ns/op
+Iteration 2: 59.701 ns/op
+Iteration 3: 61.589 ns/op
+
+60.424 ±(99.0%) 5.835 ns/op [Average]
+(min, avg, max) = (59.701, 60.424, 61.589), stdev = 1.018
+CI (99.0%): [54.590, 66.259] (normal [t] distribution)
+
+
+PairingHeap 1000000
+
+# Warmup Iteration 1: 46.154 ns/op
+# Warmup Iteration 2: 51.429 ns/op
+# Warmup Iteration 3: 46.154 ns/op
+Iteration 1: 41.538 ns/op
+Iteration 2: 49.231 ns/op
+Iteration 3: 48.077 ns/op
+
+46.282 ±(99.0%) 23.771 ns/op [Average]
+(min, avg, max) = (41.538, 46.282, 49.231), stdev = 4.148
+CI (99.0%): [22.511, 70.053] (normal [t] distribution)
+
+
+PairingHeap 10000000
+
+# Warmup Iteration 1: 400.000 ns/op
+# Warmup Iteration 2: 150.000 ns/op
+# Warmup Iteration 3: 266.667 ns/op
+Iteration 1: 200.000 ns/op
+Iteration 2: 300.000 ns/op
+Iteration 3: 300.000 ns/op
+
+266.667 ±(99.0%) 330.828 ns/op [Average]
+(min, avg, max) = (200.000, 266.667, 300.000), stdev = 57.735
+CI (99.0%): [-64.161, 597.495] (normal [t] distribution)
+
+
+PairingHeap.10000         37.469 ± 1.066 ns/op
+PairingHeap.100000        60.424 ± 5.835 ns/op
+PairingHeap.1000          33.595 ± 0.682 ns/op
+PairingHeap.10000000      266.667 ± 330.828 ns/op
+PairingHeap.1000000       46.282 ± 23.771 ns/op
+black hole: 238253.99523873147
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 160.615 s - in honours.heaps.merge.perf.manual.ManualPairingPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualPennantForestPerfTest
+=========================================================================================
+PennantForest 1000
+
+# Warmup Iteration 1: 5704.103 ns/op
+# Warmup Iteration 2: 4986.494 ns/op
+# Warmup Iteration 3: 4969.079 ns/op
+Iteration 1: 4975.509 ns/op
+Iteration 2: 4978.782 ns/op
+Iteration 3: 4993.357 ns/op
+
+4982.549 ±(99.0%) 54.445 ns/op [Average]
+(min, avg, max) = (4975.509, 4982.549, 4993.357), stdev = 9.502
+CI (99.0%): [4928.105, 5036.994] (normal [t] distribution)
+
+
+PennantForest 10000
+
+# Warmup Iteration 1: 11807.607 ns/op
+# Warmup Iteration 2: 11744.188 ns/op
+# Warmup Iteration 3: 11722.974 ns/op
+Iteration 1: 11709.105 ns/op
+Iteration 2: 11701.309 ns/op
+Iteration 3: 11730.815 ns/op
+
+11713.743 ±(99.0%) 87.614 ns/op [Average]
+(min, avg, max) = (11701.309, 11713.743, 11730.815), stdev = 15.290
+CI (99.0%): [11626.129, 11801.357] (normal [t] distribution)
+
+
+PennantForest 100000
+
+# Warmup Iteration 1: 20461.486 ns/op
+# Warmup Iteration 2: 20498.328 ns/op
+# Warmup Iteration 3: 20450.167 ns/op
+Iteration 1: 20358.863 ns/op
+Iteration 2: 20479.866 ns/op
+Iteration 3: 20364.189 ns/op
+
+20400.973 ±(99.0%) 391.798 ns/op [Average]
+(min, avg, max) = (20358.863, 20400.973, 20479.866), stdev = 68.375
+CI (99.0%): [20009.174, 20792.771] (normal [t] distribution)
+
+
+PennantForest 1000000
+
+# Warmup Iteration 1: 39995.455 ns/op
+# Warmup Iteration 2: 47646.154 ns/op
+# Warmup Iteration 3: 46174.074 ns/op
+Iteration 1: 46085.714 ns/op
+Iteration 2: 45250.000 ns/op
+Iteration 3: 45900.000 ns/op
+
+45745.238 ±(99.0%) 2514.520 ns/op [Average]
+(min, avg, max) = (45250.000, 45745.238, 46085.714), stdev = 438.826
+CI (99.0%): [43230.718, 48259.758] (normal [t] distribution)
+
+
+PennantForest 10000000
+
+# Warmup Iteration 1: 62466.667 ns/op
+# Warmup Iteration 2: 54650.000 ns/op
+# Warmup Iteration 3: 52200.000 ns/op
+Iteration 1: 54500.000 ns/op
+Iteration 2: 59500.000 ns/op
+Iteration 3: 54400.000 ns/op
+
+56133.333 ±(99.0%) 16709.276 ns/op [Average]
+(min, avg, max) = (54400.000, 56133.333, 59500.000), stdev = 2916.048
+CI (99.0%): [39424.057, 72842.609] (normal [t] distribution)
+
+
+PennantForest.10000       11713.743 ± 87.614 ns/op
+PennantForest.100000      20400.973 ± 391.798 ns/op
+PennantForest.1000        4982.549 ± 54.445 ns/op
+PennantForest.10000000    56133.333 ± 16709.276 ns/op
+PennantForest.1000000     45745.238 ± 2514.520 ns/op
+black hole: 237838.83820796912

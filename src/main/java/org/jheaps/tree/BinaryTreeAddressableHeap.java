@@ -85,12 +85,12 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
     /**
      * Size of the heap
      */
-    private long size;
+    public long size;
 
     /**
      * Root node of the heap
      */
-    private Node root;
+    public Node root;
 
     /**
      * Constructs a new, empty heap, using the natural ordering of its keys.
@@ -300,16 +300,16 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
     }
 
     // handle
-    private class Node implements AddressableHeap.Handle<K, V>, Serializable {
+    public class Node implements AddressableHeap.Handle<K, V>, Serializable {
 
         private final static long serialVersionUID = 1;
 
-        K key;
-        V value;
-        Node o_c; // older child
-        Node y_s; // younger sibling or parent
+        public K key;
+        public V value;
+        public Node o_c; // older child
+        public Node y_s; // younger sibling or parent
 
-        Node(K key, V value) {
+        public Node(K key, V value) {
             this.key = key;
             this.value = value;
             this.o_c = null;
@@ -377,7 +377,7 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
     }
 
     @SuppressWarnings("unchecked")
-    private void fixup(Node n) {
+    public void fixup(Node n) {
         if (comparator == null) {
             Node p = getParent(n);
             while (p != null) {
@@ -402,7 +402,7 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
     }
 
     @SuppressWarnings("unchecked")
-    private void fixdown(Node n) {
+    public void fixdown(Node n) {
         if (comparator == null) {
             Node p = getParent(n);
             while (n.o_c != null) {
@@ -435,7 +435,7 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
     /*
      * Get the parent node of a given node.
      */
-    private Node getParent(Node n) {
+    public Node getParent(Node n) {
         if (n.y_s == null) {
             return null;
         }
@@ -457,7 +457,7 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
      * 
      * @param node the node number assuming that the root node is number one
      */
-    private Node findParentNode(long node) {
+    public Node findParentNode(long node) {
         // assert node > 0;
 
         // find bit representation of node
@@ -479,7 +479,7 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
     /*
      * Swap a node with its parent which must be the root.
      */
-    private void swap(Node n, Node root) {
+    public void swap(Node n, Node root) {
         // assert this.root == root;
 
         Node nLeftChild = n.o_c;
@@ -523,7 +523,7 @@ public class BinaryTreeAddressableHeap<K, V> implements AddressableHeap<K, V>, S
      * 
      * @param pp the parent of the parent node, maybe null
      */
-    private void swap(Node n, Node p, Node pp) {
+    public void swap(Node n, Node p, Node pp) {
         if (pp == null) {
             swap(n, p);
             return;

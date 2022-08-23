@@ -1,0 +1,125 @@
+BinomialHeap 10000 50000
+
+# Warmup Iteration 1: 1240.483 ns/op
+# Warmup Iteration 2: 348.096 ns/op
+# Warmup Iteration 3: 372.573 ns/op
+Iteration 1: 366.312 ns/op
+Iteration 2: 382.409 ns/op
+Iteration 3: 361.370 ns/op
+
+370.030 ±(99.0%) 63.038 ns/op [Average]
+(min, avg, max) = (361.370, 370.030, 382.409), stdev = 11.001
+CI (99.0%): [306.992, 433.068] (normal [t] distribution)
+
+
+BinomialHeap.10000.50000  370.030 ± 63.038 ns/op
+black hole: 64112.89086787266
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.083 s - in honours.heaps.merge.perf.manual.ManualBinomialPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualFibonacciPerfTest
+=========================================================================================
+FibonacciHeap 10000 50000
+
+# Warmup Iteration 1: 270.966 ns/op
+# Warmup Iteration 2: 89.345 ns/op
+# Warmup Iteration 3: 85.909 ns/op
+Iteration 1: 82.609 ns/op
+Iteration 2: 80.218 ns/op
+Iteration 3: 85.261 ns/op
+
+82.696 ±(99.0%) 14.456 ns/op [Average]
+(min, avg, max) = (80.218, 82.696, 85.261), stdev = 2.523
+CI (99.0%): [68.240, 97.152] (normal [t] distribution)
+
+
+FibonacciHeap.10000.50000 82.696 ± 14.456 ns/op
+black hole: 21433.27966897248
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.081 s - in honours.heaps.merge.perf.manual.ManualFibonacciPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualLeftistPerfTest
+=========================================================================================
+LeftistHeap 10000 50000
+
+# Warmup Iteration 1: 2578.114 ns/op
+# Warmup Iteration 2: 1220.406 ns/op
+# Warmup Iteration 3: 1158.432 ns/op
+Iteration 1: 1223.990 ns/op
+Iteration 2: 1131.347 ns/op
+Iteration 3: 1121.154 ns/op
+
+1158.830 ±(99.0%) 324.668 ns/op [Average]
+(min, avg, max) = (1121.154, 1158.830, 1223.990), stdev = 56.660
+CI (99.0%): [834.162, 1483.498] (normal [t] distribution)
+
+
+LeftistHeap.10000.50000   1158.830 ± 324.668 ns/op
+black hole: 21265.661184566437
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.111 s - in honours.heaps.merge.perf.manual.ManualLeftistPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualMergeOnlyPennantForestPerfTest
+=========================================================================================
+MergePennantForest 10000 50000
+
+# Warmup Iteration 1: 18841.924 ns/op
+# Warmup Iteration 2: 11548.187 ns/op
+# Warmup Iteration 3: 11249.052 ns/op
+Iteration 1: 11039.535 ns/op
+Iteration 2: 11220.776 ns/op
+Iteration 3: 10934.741 ns/op
+
+11065.017 ±(99.0%) 829.204 ns/op [Average]
+(min, avg, max) = (10934.741, 11065.017, 11220.776), stdev = 144.710
+CI (99.0%): [10235.814, 11894.221] (normal [t] distribution)
+
+
+MergePennantForest.10000.50000 11065.017 ± 829.204 ns/op
+black hole: 21654.419841285893
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.086 s - in honours.heaps.merge.perf.manual.ManualMergeOnlyPennantForestPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualPairingPerfTest
+=========================================================================================
+PairingHeap 10000 50000
+
+# Warmup Iteration 1: 205.499 ns/op
+# Warmup Iteration 2: 53.710 ns/op
+# Warmup Iteration 3: 54.182 ns/op
+Iteration 1: 53.151 ns/op
+Iteration 2: 52.849 ns/op
+Iteration 3: 54.443 ns/op
+
+53.481 ±(99.0%) 4.851 ns/op [Average]
+(min, avg, max) = (52.849, 53.481, 54.443), stdev = 0.847
+CI (99.0%): [48.630, 58.332] (normal [t] distribution)
+
+
+PairingHeap.10000.50000   53.481 ± 4.851 ns/op
+black hole: 21593.48858825201
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.099 s - in honours.heaps.merge.perf.manual.ManualPairingPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualPennantForestPerfTest
+=========================================================================================
+PennantForest 10000 50000
+
+# Warmup Iteration 1: 35368.127 ns/op
+# Warmup Iteration 2: 21305.240 ns/op
+# Warmup Iteration 3: 20209.188 ns/op
+Iteration 1: 19834.341 ns/op
+Iteration 2: 19764.507 ns/op
+Iteration 3: 20221.553 ns/op
+
+19940.133 ±(99.0%) 1410.779 ns/op [Average]
+(min, avg, max) = (19764.507, 19940.133, 20221.553), stdev = 246.205
+CI (99.0%): [18529.354, 21350.913] (normal [t] distribution)
+
+
+PennantForest.10000.50000 19940.133 ± 1410.779 ns/op
+black hole: 21490.51042325917
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.084 s - in honours.heaps.merge.perf.manual.ManualPennantForestPerfTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:23 min
+[INFO] Finished at: 2022-04-24T21:10:32-04:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0

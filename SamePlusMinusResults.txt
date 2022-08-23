@@ -1,0 +1,651 @@
+BinomialHeap 262140
+
+# Warmup Iteration 1: 11192.814 ns/op
+# Warmup Iteration 2: 1851.596 ns/op
+# Warmup Iteration 3: 2008.556 ns/op
+Iteration 1: 1729.630 ns/op
+Iteration 2: 1364.894 ns/op
+Iteration 3: 656.915 ns/op
+
+1250.479 ±(99.0%) 3125.392 ns/op [Average]
+(min, avg, max) = (656.915, 1250.479, 1729.630), stdev = 545.433
+CI (99.0%): [-1874.912, 4375.871] (normal [t] distribution)
+
+
+BinomialHeap 262141
+
+# Warmup Iteration 1: 3961.828 ns/op
+# Warmup Iteration 2: 1536.757 ns/op
+# Warmup Iteration 3: 1487.634 ns/op
+Iteration 1: 1422.581 ns/op
+Iteration 2: 1032.796 ns/op
+Iteration 3: 972.340 ns/op
+
+1142.572 ±(99.0%) 1400.273 ns/op [Average]
+(min, avg, max) = (972.340, 1142.572, 1422.581), stdev = 244.371
+CI (99.0%): [-257.701, 2542.846] (normal [t] distribution)
+
+
+BinomialHeap 262142
+
+# Warmup Iteration 1: 677.419 ns/op
+# Warmup Iteration 2: 716.667 ns/op
+# Warmup Iteration 3: 687.701 ns/op
+Iteration 1: 676.087 ns/op
+Iteration 2: 736.813 ns/op
+Iteration 3: 729.121 ns/op
+
+714.007 ±(99.0%) 189.461 ns/op [Average]
+(min, avg, max) = (676.087, 714.007, 736.813), stdev = 33.064
+CI (99.0%): [524.546, 903.468] (normal [t] distribution)
+
+
+BinomialHeap 262143
+
+# Warmup Iteration 1: 754.098 ns/op
+# Warmup Iteration 2: 765.934 ns/op
+# Warmup Iteration 3: 749.457 ns/op
+Iteration 1: 736.612 ns/op
+Iteration 2: 718.478 ns/op
+Iteration 3: 740.437 ns/op
+
+731.842 ±(99.0%) 67.218 ns/op [Average]
+(min, avg, max) = (718.478, 731.842, 740.437), stdev = 11.731
+CI (99.0%): [664.624, 799.061] (normal [t] distribution)
+
+
+BinomialHeap 262144
+
+# Warmup Iteration 1: 224.044 ns/op
+# Warmup Iteration 2: 210.326 ns/op
+# Warmup Iteration 3: 228.962 ns/op
+Iteration 1: 211.475 ns/op
+Iteration 2: 208.743 ns/op
+Iteration 3: 224.590 ns/op
+
+214.936 ±(99.0%) 48.542 ns/op [Average]
+(min, avg, max) = (208.743, 214.936, 224.590), stdev = 8.471
+CI (99.0%): [166.394, 263.478] (normal [t] distribution)
+
+
+BinomialHeap 262145
+
+# Warmup Iteration 1: 259.563 ns/op
+# Warmup Iteration 2: 274.457 ns/op
+# Warmup Iteration 3: 356.667 ns/op
+Iteration 1: 341.209 ns/op
+Iteration 2: 274.863 ns/op
+Iteration 3: 269.022 ns/op
+
+295.031 ±(99.0%) 229.763 ns/op [Average]
+(min, avg, max) = (269.022, 295.031, 341.209), stdev = 40.097
+CI (99.0%): [65.269, 524.794] (normal [t] distribution)
+
+
+BinomialHeap 262146
+
+# Warmup Iteration 1: 268.306 ns/op
+# Warmup Iteration 2: 264.674 ns/op
+# Warmup Iteration 3: 259.016 ns/op
+Iteration 1: 279.348 ns/op
+Iteration 2: 336.313 ns/op
+Iteration 3: 236.066 ns/op
+
+283.909 ±(99.0%) 288.104 ns/op [Average]
+(min, avg, max) = (236.066, 283.909, 336.313), stdev = 50.279
+CI (99.0%): [-4.196, 572.013] (normal [t] distribution)
+
+
+BinomialHeap.262144       214.936 ± 48.542 ns/op
+BinomialHeap.262145       295.031 ± 229.763 ns/op
+BinomialHeap.262146       283.909 ± 288.104 ns/op
+BinomialHeap.262143       731.842 ± 67.218 ns/op
+BinomialHeap.262142       714.007 ± 189.461 ns/op
+BinomialHeap.262141       1142.572 ± 1400.273 ns/op
+BinomialHeap.262140       1250.479 ± 3125.392 ns/op
+black hole: 1.6003393313088724E8
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 210.671 s - in honours.heaps.merge.perf.manual.ManualBinomialPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualFibonacciPerfTest
+=========================================================================================
+FibonacciHeap 262140
+
+# Warmup Iteration 1: 1429.825 ns/op
+# Warmup Iteration 2: 203.316 ns/op
+# Warmup Iteration 3: 100.221 ns/op
+Iteration 1: 78.571 ns/op
+Iteration 2: 77.017 ns/op
+Iteration 3: 77.790 ns/op
+
+77.793 ±(99.0%) 4.455 ns/op [Average]
+(min, avg, max) = (77.017, 77.793, 78.571), stdev = 0.777
+CI (99.0%): [73.338, 82.247] (normal [t] distribution)
+
+
+FibonacciHeap 262141
+
+# Warmup Iteration 1: 77.263 ns/op
+# Warmup Iteration 2: 72.558 ns/op
+# Warmup Iteration 3: 82.556 ns/op
+Iteration 1: 76.633 ns/op
+Iteration 2: 70.264 ns/op
+Iteration 3: 75.000 ns/op
+
+73.966 ±(99.0%) 18.956 ns/op [Average]
+(min, avg, max) = (70.264, 73.966, 76.633), stdev = 3.308
+CI (99.0%): [55.010, 92.922] (normal [t] distribution)
+
+
+FibonacciHeap 262142
+
+# Warmup Iteration 1: 72.228 ns/op
+# Warmup Iteration 2: 77.619 ns/op
+# Warmup Iteration 3: 76.264 ns/op
+Iteration 1: 76.400 ns/op
+Iteration 2: 75.877 ns/op
+Iteration 3: 76.374 ns/op
+
+76.217 ±(99.0%) 1.687 ns/op [Average]
+(min, avg, max) = (75.877, 76.217, 76.400), stdev = 0.294
+CI (99.0%): [74.530, 77.904] (normal [t] distribution)
+
+
+FibonacciHeap 262143
+
+# Warmup Iteration 1: 74.505 ns/op
+# Warmup Iteration 2: 74.477 ns/op
+# Warmup Iteration 3: 77.412 ns/op
+Iteration 1: 77.961 ns/op
+Iteration 2: 74.778 ns/op
+Iteration 3: 72.747 ns/op
+
+75.162 ±(99.0%) 15.057 ns/op [Average]
+(min, avg, max) = (72.747, 75.162, 77.961), stdev = 2.628
+CI (99.0%): [60.104, 90.219] (normal [t] distribution)
+
+
+FibonacciHeap 262144
+
+# Warmup Iteration 1: 77.093 ns/op
+# Warmup Iteration 2: 75.329 ns/op
+# Warmup Iteration 3: 77.338 ns/op
+Iteration 1: 75.359 ns/op
+Iteration 2: 72.101 ns/op
+Iteration 3: 75.580 ns/op
+
+74.347 ±(99.0%) 11.163 ns/op [Average]
+(min, avg, max) = (72.101, 74.347, 75.580), stdev = 1.948
+CI (99.0%): [63.183, 85.510] (normal [t] distribution)
+
+
+FibonacciHeap 262145
+
+# Warmup Iteration 1: 75.877 ns/op
+# Warmup Iteration 2: 77.556 ns/op
+# Warmup Iteration 3: 73.626 ns/op
+Iteration 1: 77.827 ns/op
+Iteration 2: 79.428 ns/op
+Iteration 3: 72.070 ns/op
+
+76.442 ±(99.0%) 22.173 ns/op [Average]
+(min, avg, max) = (72.070, 76.442, 79.428), stdev = 3.870
+CI (99.0%): [54.269, 98.614] (normal [t] distribution)
+
+
+FibonacciHeap 262146
+
+# Warmup Iteration 1: 72.917 ns/op
+# Warmup Iteration 2: 74.242 ns/op
+# Warmup Iteration 3: 73.325 ns/op
+Iteration 1: 76.372 ns/op
+Iteration 2: 72.671 ns/op
+Iteration 3: 74.188 ns/op
+
+74.410 ±(99.0%) 10.660 ns/op [Average]
+(min, avg, max) = (72.671, 74.410, 76.372), stdev = 1.860
+CI (99.0%): [63.751, 85.070] (normal [t] distribution)
+
+
+FibonacciHeap.262144      74.347 ± 11.163 ns/op
+FibonacciHeap.262145      76.442 ± 22.173 ns/op
+FibonacciHeap.262146      74.410 ± 10.660 ns/op
+FibonacciHeap.262143      75.162 ± 15.057 ns/op
+FibonacciHeap.262142      76.217 ± 1.687 ns/op
+FibonacciHeap.262141      73.966 ± 18.956 ns/op
+FibonacciHeap.262140      77.793 ± 4.455 ns/op
+black hole: 4099.128668183645
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 210.242 s - in honours.heaps.merge.perf.manual.ManualFibonacciPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualLeftistPerfTest
+=========================================================================================
+LeftistHeap 262140
+
+# Warmup Iteration 1: 12016.636 ns/op
+# Warmup Iteration 2: 9018.973 ns/op
+# Warmup Iteration 3: 8659.365 ns/op
+Iteration 1: 6624.365 ns/op
+Iteration 2: 2012.466 ns/op
+Iteration 3: 1950.671 ns/op
+
+3529.167 ±(99.0%) 15360.696 ns/op [Average]
+(min, avg, max) = (1950.671, 3529.167, 6624.365), stdev = 2680.698
+CI (99.0%): [-11831.528, 18889.863] (normal [t] distribution)
+
+
+LeftistHeap 262141
+
+# Warmup Iteration 1: 1841.770 ns/op
+# Warmup Iteration 2: 2154.836 ns/op
+# Warmup Iteration 3: 1745.178 ns/op
+Iteration 1: 1649.260 ns/op
+Iteration 2: 1694.534 ns/op
+Iteration 3: 1683.181 ns/op
+
+1675.658 ±(99.0%) 134.977 ns/op [Average]
+(min, avg, max) = (1649.260, 1675.658, 1694.534), stdev = 23.556
+CI (99.0%): [1540.682, 1810.635] (normal [t] distribution)
+
+
+LeftistHeap 262142
+
+# Warmup Iteration 1: 1680.569 ns/op
+# Warmup Iteration 2: 1654.139 ns/op
+# Warmup Iteration 3: 1793.014 ns/op
+Iteration 1: 1627.653 ns/op
+Iteration 2: 1619.458 ns/op
+Iteration 3: 1672.167 ns/op
+
+1639.759 ±(99.0%) 162.524 ns/op [Average]
+(min, avg, max) = (1619.458, 1639.759, 1672.167), stdev = 28.363
+CI (99.0%): [1477.235, 1802.283] (normal [t] distribution)
+
+
+LeftistHeap 262143
+
+# Warmup Iteration 1: 1681.931 ns/op
+# Warmup Iteration 2: 1748.639 ns/op
+# Warmup Iteration 3: 1648.486 ns/op
+Iteration 1: 1638.958 ns/op
+Iteration 2: 1675.301 ns/op
+Iteration 3: 1726.347 ns/op
+
+1680.202 ±(99.0%) 251.552 ns/op [Average]
+(min, avg, max) = (1638.958, 1680.202, 1726.347), stdev = 43.900
+CI (99.0%): [1428.650, 1931.755] (normal [t] distribution)
+
+
+LeftistHeap 262144
+
+# Warmup Iteration 1: 1759.806 ns/op
+# Warmup Iteration 2: 1673.597 ns/op
+# Warmup Iteration 3: 1711.069 ns/op
+Iteration 1: 1629.111 ns/op
+Iteration 2: 1827.342 ns/op
+Iteration 3: 1704.236 ns/op
+
+1720.230 ±(99.0%) 573.463 ns/op [Average]
+(min, avg, max) = (1629.111, 1720.230, 1827.342), stdev = 100.079
+CI (99.0%): [1146.767, 2293.693] (normal [t] distribution)
+
+
+LeftistHeap 262145
+
+# Warmup Iteration 1: 1678.123 ns/op
+# Warmup Iteration 2: 1768.493 ns/op
+# Warmup Iteration 3: 1747.153 ns/op
+Iteration 1: 1637.472 ns/op
+Iteration 2: 1605.569 ns/op
+Iteration 3: 1706.861 ns/op
+
+1649.968 ±(99.0%) 296.757 ns/op [Average]
+(min, avg, max) = (1605.569, 1649.968, 1706.861), stdev = 51.789
+CI (99.0%): [1353.211, 1946.724] (normal [t] distribution)
+
+
+LeftistHeap 262146
+
+# Warmup Iteration 1: 1697.113 ns/op
+# Warmup Iteration 2: 1745.233 ns/op
+# Warmup Iteration 3: 1651.417 ns/op
+Iteration 1: 1645.875 ns/op
+Iteration 2: 1677.806 ns/op
+Iteration 3: 1721.781 ns/op
+
+1681.820 ±(99.0%) 218.385 ns/op [Average]
+(min, avg, max) = (1645.875, 1681.820, 1721.781), stdev = 38.112
+CI (99.0%): [1463.435, 1900.206] (normal [t] distribution)
+
+
+LeftistHeap.262144        1720.230 ± 573.463 ns/op
+LeftistHeap.262145        1649.968 ± 296.757 ns/op
+LeftistHeap.262146        1681.820 ± 218.385 ns/op
+LeftistHeap.262143        1680.202 ± 251.552 ns/op
+LeftistHeap.262142        1639.759 ± 162.524 ns/op
+LeftistHeap.262141        1675.658 ± 134.977 ns/op
+LeftistHeap.262140        3529.167 ± 15360.696 ns/op
+black hole: 4024.695077507674
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 211.512 s - in honours.heaps.merge.perf.manual.ManualLeftistPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualMergeOnlyPennantForestPerfTest
+=========================================================================================
+MergePennantForest 262140
+
+# Warmup Iteration 1: 88439.109 ns/op
+# Warmup Iteration 2: 40547.455 ns/op
+# Warmup Iteration 3: 29846.030 ns/op
+Iteration 1: 28644.495 ns/op
+Iteration 2: 15238.910 ns/op
+Iteration 3: 15000.071 ns/op
+
+19627.825 ±(99.0%) 44749.749 ns/op [Average]
+(min, avg, max) = (15000.071, 19627.825, 28644.495), stdev = 7809.578
+CI (99.0%): [-25121.924, 64377.574] (normal [t] distribution)
+
+
+MergePennantForest 262141
+
+# Warmup Iteration 1: 28315.162 ns/op
+# Warmup Iteration 2: 25110.330 ns/op
+# Warmup Iteration 3: 25158.376 ns/op
+Iteration 1: 15150.090 ns/op
+Iteration 2: 14923.040 ns/op
+Iteration 3: 14146.545 ns/op
+
+14739.892 ±(99.0%) 3015.440 ns/op [Average]
+(min, avg, max) = (14146.545, 14739.892, 15150.090), stdev = 526.245
+CI (99.0%): [11724.452, 17755.331] (normal [t] distribution)
+
+
+MergePennantForest 262142
+
+# Warmup Iteration 1: 14073.208 ns/op
+# Warmup Iteration 2: 14099.010 ns/op
+# Warmup Iteration 3: 14763.725 ns/op
+Iteration 1: 14383.168 ns/op
+Iteration 2: 14360.784 ns/op
+Iteration 3: 14232.353 ns/op
+
+14325.435 ±(99.0%) 466.344 ns/op [Average]
+(min, avg, max) = (14232.353, 14325.435, 14383.168), stdev = 81.385
+CI (99.0%): [13859.091, 14791.779] (normal [t] distribution)
+
+
+MergePennantForest 262143
+
+# Warmup Iteration 1: 14373.529 ns/op
+# Warmup Iteration 2: 14309.901 ns/op
+# Warmup Iteration 3: 14173.529 ns/op
+Iteration 1: 14218.812 ns/op
+Iteration 2: 13844.118 ns/op
+Iteration 3: 14308.911 ns/op
+
+14123.947 ±(99.0%) 1412.420 ns/op [Average]
+(min, avg, max) = (13844.118, 14123.947, 14308.911), stdev = 246.491
+CI (99.0%): [12711.527, 15536.367] (normal [t] distribution)
+
+
+MergePennantForest 262144
+
+# Warmup Iteration 1: 16310.784 ns/op
+# Warmup Iteration 2: 17345.098 ns/op
+# Warmup Iteration 3: 16620.792 ns/op
+Iteration 1: 17452.475 ns/op
+Iteration 2: 16640.196 ns/op
+Iteration 3: 16662.376 ns/op
+
+16918.349 ±(99.0%) 2651.320 ns/op [Average]
+(min, avg, max) = (16640.196, 16918.349, 17452.475), stdev = 462.700
+CI (99.0%): [14267.029, 19569.670] (normal [t] distribution)
+
+
+MergePennantForest 262145
+
+# Warmup Iteration 1: 15933.333 ns/op
+# Warmup Iteration 2: 15967.647 ns/op
+# Warmup Iteration 3: 17696.078 ns/op
+Iteration 1: 16707.921 ns/op
+Iteration 2: 16347.059 ns/op
+Iteration 3: 16293.069 ns/op
+
+16449.350 ±(99.0%) 1292.429 ns/op [Average]
+(min, avg, max) = (16293.069, 16449.350, 16707.921), stdev = 225.550
+CI (99.0%): [15156.921, 17741.779] (normal [t] distribution)
+
+
+MergePennantForest 262146
+
+# Warmup Iteration 1: 16155.446 ns/op
+# Warmup Iteration 2: 16602.941 ns/op
+# Warmup Iteration 3: 16357.843 ns/op
+Iteration 1: 15997.030 ns/op
+Iteration 2: 16445.098 ns/op
+Iteration 3: 16252.475 ns/op
+
+16231.534 ±(99.0%) 1287.940 ns/op [Average]
+(min, avg, max) = (15997.030, 16231.534, 16445.098), stdev = 224.767
+CI (99.0%): [14943.595, 17519.474] (normal [t] distribution)
+
+
+MergePennantForest.262144 16918.349 ± 2651.320 ns/op
+MergePennantForest.262145 16449.350 ± 1292.429 ns/op
+MergePennantForest.262146 16231.534 ± 1287.940 ns/op
+MergePennantForest.262143 14123.947 ± 1412.420 ns/op
+MergePennantForest.262142 14325.435 ± 466.344 ns/op
+MergePennantForest.262141 14739.892 ± 3015.440 ns/op
+MergePennantForest.262140 19627.825 ± 44749.749 ns/op
+black hole: 4073.647447109098
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 211.066 s - in honours.heaps.merge.perf.manual.ManualMergeOnlyPennantForestPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualPairingPerfTest
+=========================================================================================
+PairingHeap 262140
+
+# Warmup Iteration 1: 2222.866 ns/op
+# Warmup Iteration 2: 378.959 ns/op
+# Warmup Iteration 3: 402.359 ns/op
+Iteration 1: 389.136 ns/op
+Iteration 2: 435.856 ns/op
+Iteration 3: 439.930 ns/op
+
+421.640 ±(99.0%) 161.723 ns/op [Average]
+(min, avg, max) = (389.136, 421.640, 439.930), stdev = 28.223
+CI (99.0%): [259.917, 583.364] (normal [t] distribution)
+
+
+PairingHeap 262141
+
+# Warmup Iteration 1: 251.256 ns/op
+# Warmup Iteration 2: 99.075 ns/op
+# Warmup Iteration 3: 85.465 ns/op
+Iteration 1: 80.093 ns/op
+Iteration 2: 79.679 ns/op
+Iteration 3: 76.190 ns/op
+
+78.654 ±(99.0%) 12.282 ns/op [Average]
+(min, avg, max) = (76.190, 78.654, 80.093), stdev = 2.143
+CI (99.0%): [66.372, 90.936] (normal [t] distribution)
+
+
+PairingHeap 262142
+
+# Warmup Iteration 1: 89.988 ns/op
+# Warmup Iteration 2: 108.861 ns/op
+# Warmup Iteration 3: 78.311 ns/op
+Iteration 1: 87.571 ns/op
+Iteration 2: 82.848 ns/op
+Iteration 3: 82.399 ns/op
+
+84.272 ±(99.0%) 16.417 ns/op [Average]
+(min, avg, max) = (82.399, 84.272, 87.571), stdev = 2.865
+CI (99.0%): [67.855, 100.690] (normal [t] distribution)
+
+
+PairingHeap 262143
+
+# Warmup Iteration 1: 89.162 ns/op
+# Warmup Iteration 2: 80.990 ns/op
+# Warmup Iteration 3: 79.218 ns/op
+Iteration 1: 75.450 ns/op
+Iteration 2: 84.797 ns/op
+Iteration 3: 81.879 ns/op
+
+80.709 ±(99.0%) 27.402 ns/op [Average]
+(min, avg, max) = (75.450, 80.709, 84.797), stdev = 4.782
+CI (99.0%): [53.307, 108.111] (normal [t] distribution)
+
+
+PairingHeap 262144
+
+# Warmup Iteration 1: 80.894 ns/op
+# Warmup Iteration 2: 84.555 ns/op
+# Warmup Iteration 3: 84.736 ns/op
+Iteration 1: 131.674 ns/op
+Iteration 2: 77.380 ns/op
+Iteration 3: 91.033 ns/op
+
+100.029 ±(99.0%) 161.836 ns/op [Average]
+(min, avg, max) = (77.380, 100.029, 131.674), stdev = 28.243
+CI (99.0%): [-61.807, 261.865] (normal [t] distribution)
+
+
+PairingHeap 262145
+
+# Warmup Iteration 1: 81.006 ns/op
+# Warmup Iteration 2: 75.615 ns/op
+# Warmup Iteration 3: 173.660 ns/op
+Iteration 1: 87.416 ns/op
+Iteration 2: 87.260 ns/op
+Iteration 3: 105.461 ns/op
+
+93.379 ±(99.0%) 59.957 ns/op [Average]
+(min, avg, max) = (87.260, 93.379, 105.461), stdev = 10.463
+CI (99.0%): [33.422, 153.336] (normal [t] distribution)
+
+
+PairingHeap 262146
+
+# Warmup Iteration 1: 82.187 ns/op
+# Warmup Iteration 2: 91.041 ns/op
+# Warmup Iteration 3: 86.824 ns/op
+Iteration 1: 86.742 ns/op
+Iteration 2: 84.469 ns/op
+Iteration 3: 80.872 ns/op
+
+84.028 ±(99.0%) 16.957 ns/op [Average]
+(min, avg, max) = (80.872, 84.028, 86.742), stdev = 2.959
+CI (99.0%): [67.070, 100.985] (normal [t] distribution)
+
+
+PairingHeap.262144        100.029 ± 161.836 ns/op
+PairingHeap.262145        93.379 ± 59.957 ns/op
+PairingHeap.262146        84.028 ± 16.957 ns/op
+PairingHeap.262143        80.709 ± 27.402 ns/op
+PairingHeap.262142        84.272 ± 16.417 ns/op
+PairingHeap.262141        78.654 ± 12.282 ns/op
+PairingHeap.262140        421.640 ± 161.723 ns/op
+black hole: 4044.3503511789854
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 210.271 s - in honours.heaps.merge.perf.manual.ManualPairingPerfTest
+[INFO] Running honours.heaps.merge.perf.manual.ManualPennantForestPerfTest
+=========================================================================================
+PennantForest 262140
+
+# Warmup Iteration 1: 164044.681 ns/op
+# Warmup Iteration 2: 73935.455 ns/op
+# Warmup Iteration 3: 56648.182 ns/op
+Iteration 1: 47524.324 ns/op
+Iteration 2: 33075.455 ns/op
+Iteration 3: 33307.692 ns/op
+
+37969.157 ±(99.0%) 47421.437 ns/op [Average]
+(min, avg, max) = (33075.455, 37969.157, 47524.324), stdev = 8275.832
+CI (99.0%): [-9452.280, 85390.594] (normal [t] distribution)
+
+
+PennantForest 262141
+
+# Warmup Iteration 1: 44060.396 ns/op
+# Warmup Iteration 2: 45138.614 ns/op
+# Warmup Iteration 3: 36550.000 ns/op
+Iteration 1: 34040.594 ns/op
+Iteration 2: 32633.663 ns/op
+Iteration 3: 29570.588 ns/op
+
+32081.615 ±(99.0%) 13096.539 ns/op [Average]
+(min, avg, max) = (29570.588, 32081.615, 34040.594), stdev = 2285.565
+CI (99.0%): [18985.076, 45178.154] (normal [t] distribution)
+
+
+PennantForest 262142
+
+# Warmup Iteration 1: 30637.624 ns/op
+# Warmup Iteration 2: 30164.356 ns/op
+# Warmup Iteration 3: 30406.863 ns/op
+Iteration 1: 29795.050 ns/op
+Iteration 2: 38287.129 ns/op
+Iteration 3: 42550.495 ns/op
+
+36877.558 ±(99.0%) 37208.463 ns/op [Average]
+(min, avg, max) = (29795.050, 36877.558, 42550.495), stdev = 6493.498
+CI (99.0%): [-330.906, 74086.021] (normal [t] distribution)
+
+
+PennantForest 262143
+
+# Warmup Iteration 1: 30753.465 ns/op
+# Warmup Iteration 2: 32255.000 ns/op
+# Warmup Iteration 3: 30492.157 ns/op
+Iteration 1: 30617.822 ns/op
+Iteration 2: 29717.647 ns/op
+Iteration 3: 30872.277 ns/op
+
+30402.582 ±(99.0%) 3476.241 ns/op [Average]
+(min, avg, max) = (29717.647, 30402.582, 30872.277), stdev = 606.662
+CI (99.0%): [26926.341, 33878.823] (normal [t] distribution)
+
+
+PennantForest 262144
+
+# Warmup Iteration 1: 49259.406 ns/op
+# Warmup Iteration 2: 51341.414 ns/op
+# Warmup Iteration 3: 48534.653 ns/op
+Iteration 1: 48862.376 ns/op
+Iteration 2: 48942.308 ns/op
+Iteration 3: 48400.000 ns/op
+
+48734.895 ±(99.0%) 1677.593 ns/op [Average]
+(min, avg, max) = (48400.000, 48734.895, 48942.308), stdev = 292.768
+CI (99.0%): [47057.302, 50412.487] (normal [t] distribution)
+
+
+PennantForest 262145
+
+# Warmup Iteration 1: 48283.019 ns/op
+# Warmup Iteration 2: 47847.170 ns/op
+# Warmup Iteration 3: 46916.038 ns/op
+Iteration 1: 48759.434 ns/op
+Iteration 2: 47621.698 ns/op
+Iteration 3: 50528.571 ns/op
+
+48969.901 ±(99.0%) 8393.587 ns/op [Average]
+(min, avg, max) = (47621.698, 48969.901, 50528.571), stdev = 1464.821
+CI (99.0%): [40576.315, 57363.488] (normal [t] distribution)
+
+
+PennantForest 262146
+
+# Warmup Iteration 1: 47527.358 ns/op
+# Warmup Iteration 2: 47134.906 ns/op
+# Warmup Iteration 3: 47327.358 ns/op
+Iteration 1: 48846.226 ns/op
+Iteration 2: 47595.283 ns/op
+Iteration 3: 47633.962 ns/op
+
+48025.157 ±(99.0%) 4075.998 ns/op [Average]
+(min, avg, max) = (47595.283, 48025.157, 48846.226), stdev = 711.330
+CI (99.0%): [43949.159, 52101.155] (normal [t] distribution)
+
+
+PennantForest.262144      48734.895 ± 1677.593 ns/op
+PennantForest.262145      48969.901 ± 8393.587 ns/op
+PennantForest.262146      48025.157 ± 4075.998 ns/op
+PennantForest.262143      30402.582 ± 3476.241 ns/op
+PennantForest.262142      36877.558 ± 37208.463 ns/op
+PennantForest.262141      32081.615 ± 13096.539 ns/op
+PennantForest.262140      37969.157 ± 47421.437 ns/op
+black hole: 4098.056084711415
